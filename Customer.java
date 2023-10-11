@@ -4,9 +4,9 @@ public class Customer {
 
     public int id;
     public CashProvider Cash;
-    List<Ticket> getAllTickets();
+    public List<Ticket> tickets;
 
-   private boolean buyTicket(Ticket ticket) {
+   public boolean buyTicket(Ticket ticket) {
     //покупка билета успешно -вернет true
    }
 
@@ -14,7 +14,7 @@ public class Customer {
 
    }
 
-   private boolean reserveTichet(Ticket ticket) {
+   public boolean reserveTicket(Ticket ticket) {
     // добавлен в рамках дз. Бронирование билета
     // если isValid true ставит бронь
     }
