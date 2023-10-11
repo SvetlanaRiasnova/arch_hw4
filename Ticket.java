@@ -7,6 +7,5 @@ public class Ticket {
     private int price;
     private Date dateTime;
     private boolean isValid;
-
-
+    private boolean isReserved; //добавлен в рамказ ДЗ
 }
