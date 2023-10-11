@@ -1,7 +1,7 @@
 import java.lang.ScopedValue.Carrier;
 
 public class CashProvider {
-    private long cardNumber;
+    private long numberCard;
     private boolean isAuthorized = false;
     private double balanceCard;
 
@@ -13,7 +13,7 @@ public class CashProvider {
     }
 
     public void authorization(Customer client) {
-        cardNumber = client.getCardNumber();
+        numberCard = client.getNumberCard();
         isAuthorized = true;
     }
 
